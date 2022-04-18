@@ -2,7 +2,7 @@
 
 A cooking timer made with Raspberry Pi Pico, a 7-segment LED display (TM1634), a rotary encoder, and an active buzzer.
 
-![cover](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/cover.jpg?raw=true)
+![cover](https://github.com/niklauslee/cooking-timer/blob/main/images/cover.jpg?raw=true)
 
 # Components
 
@@ -19,7 +19,7 @@ A cooking timer made with Raspberry Pi Pico, a 7-segment LED display (TM1634), a
 | Perfboard            | 1        | 3cm x 7cm                   |
 | Rare-earth magnets   | 8        | diameter 3mm, thickness 3mm |
 
-![components](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/components.jpg?raw=true)
+![components](https://github.com/niklauslee/cooking-timer/blob/main/images/components.jpg?raw=true)
 
 # Wiring
 
@@ -38,11 +38,11 @@ I first made a prototype on a breadboard and then wiring parts on a perfboard.
 | GP4  |        | SW      |        |         |        |
 | GP5  |        |         | IO     |         |        |
 
-![circuit](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/circuit.jpg?raw=true)
+![circuit](https://github.com/niklauslee/cooking-timer/blob/main/images/circuit.jpg?raw=true)
 
-![assembly1](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/assembly1.jpg?raw=true)
+![assembly1](https://github.com/niklauslee/cooking-timer/blob/main/images/assembly1.jpg?raw=true)
 
-![assembly2](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/assembly2.jpg?raw=true)
+![assembly2](https://github.com/niklauslee/cooking-timer/blob/main/images/assembly2.jpg?raw=true)
 
 # Assembly
 
@@ -50,15 +50,15 @@ I made a 3D model for the case with Tinkercad and then print it with FDM-type 3D
 
 - Tinkercad: https://www.tinkercad.com/things/i0qbI05kQMx
 
-![design](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/design.png?raw=true)
+![design](https://github.com/niklauslee/cooking-timer/blob/main/images/design.png?raw=true)
 
 After the case printing, the magnets should be inserted into the 8 holes. Pay attention to the insertion direction of the magnets so that the two case pieces can be stick well.
 
-![case1](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/case1.jpg?raw=true)
+![case1](https://github.com/niklauslee/cooking-timer/blob/main/images/case1.jpg?raw=true)
 
 Then mount 7-segment display, active buzzer, and perfboard into the case body with screws. The rotary encoder should be mounted with a nut in the top hole and the battery holder and the slide switch should be mounted on the case back cover. **Before mounting the Pico, the code should be uploaded.**
 
-![case2](https://github.com/niklauslee/rowing-on-zwift/blob/main/images/case2.jpg?raw=true)
+![case2](https://github.com/niklauslee/cooking-timer/blob/main/images/case2.jpg?raw=true)
 
 Lastly the rotary encoder should be inserted into the 3D-printed top handle.
 
