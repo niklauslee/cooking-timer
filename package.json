@@ -1,0 +1,9 @@
+{
+  "name": "cooking-timer",
+  "description": "A cooking timer made with 7-segment LED, knob and buzzer",
+  "dependencies": {
+    "active-buzzer": "github:niklauslee/active-buzzer",
+    "rotary-encoder": "github:niklauslee/rotary-encoder",
+    "tm1637": "github:niklauslee/tm1637"
+  }
+}
